@@ -1,13 +1,13 @@
 cask "stripwolf" do
-  version "v1.0.83"
+  version "v1.0.84"
 
   on_intel do
-    sha256 "8f517ca1595e156b7424248d1aaca67d587c393cc84e283e2af49b680575b43c"
-    url "https://github.com/dapplo/StripWolf/releases/download/#{version}/StripWolf-macOS-x64-v1.0.83-g62aaee6.tar.gz"
+    sha256 "4a0e2f55ad715ee0b6791527d49013ffc9a17bf49593975536690b5dbbb22c34"
+    url "https://github.com/dapplo/StripWolf/releases/download/#{version}/StripWolf-macOS-x64-v1.0.84-g5e724ff.tar.gz"
   end
   on_arm do
-    sha256 "fd203fe1674ad8acfc77df37c410d3b54f471885fcec07b21c5a716b75db99b5"
-    url "https://github.com/dapplo/StripWolf/releases/download/#{version}/StripWolf-macOS-arm64-v1.0.83-g62aaee6.tar.gz"
+    sha256 "62c13e2991f68745fd3d104b2c39d2d5814ff8c20f89b597c9c8b5748dcb2f49"
+    url "https://github.com/dapplo/StripWolf/releases/download/#{version}/StripWolf-macOS-arm64-v1.0.84-g5e724ff.tar.gz"
   end
 
   name "StripWolf"
